@@ -1,0 +1,550 @@
+image_id,type,release_year,rating,review,path
+1,Sea,2020,3.895396560336046,Beautiful picture,./data/0.jpg
+2,Mountain,2016,2.7529177917645598,Lovely place,./data/1.jpg
+3,Countryside,2011,0.2120498565238787,Lovely place,./data/2.jpg
+4,Sea,2009,3.901992011290582,Over react,./data/3.jpg
+5,Countryside,2008,3.3481686232019974,Beautiful picture,./data/4.jpg
+6,Mountain,2016,4.021301130565926,average,./data/5.jpg
+7,Ice,2019,0.8254934539311876,Over react,./data/6.jpg
+8,Countryside,1997,2.0571514450061863,Ugly one,./data/7.jpg
+9,Landscape,2019,2.9820185179484024,Ugly one,./data/8.jpg
+10,Sea,2008,4.376341983685449,Lovely place,./data/9.jpg
+11,Sea,2017,2.0101561089412767, I hate this,./data/10.jpg
+12,River,2018,1.0049401128722684,Not suitable for this,./data/11.jpg
+13,Mountain,2019,1.9475620070651605,Over react,./data/12.jpg
+14,Countryside,2018,0.1810830636992122,Over react,./data/13.jpg
+15,Countryside,2019,3.175235777216669,average,./data/14.jpg
+16,Countryside,2014,1.881246259925614, I hate this,./data/15.jpg
+17,River,2018,2.118524831302273,average,./data/16.jpg
+18,Mountain,2018,3.0884376835083933,average,./data/17.jpg
+19,River,2019,0.4512641910282083,Ugly one,./data/18.jpg
+20,Sea,2017,0.5337943680344404,Ugly one,./data/19.jpg
+21,Sea,2018,2.094313974306715,Not suitable for this,./data/20.jpg
+22,Sea,2018,0.5187277597623169,Beautiful picture,./data/21.jpg
+23,Sea,2017,1.813807257384716, I hate this,./data/22.jpg
+24,Sea,2017,4.346177356709107,Over react,./data/23.jpg
+25,City,2020,2.9611753763304045,Lovely place,./data/24.jpg
+26,Countryside,2015,4.214273534762742,Over react,./data/25.jpg
+27,Sea,2020,0.1451515454629259, I hate this,./data/26.jpg
+28,Countryside,2020,4.858989798899868,Not suitable for this,./data/27.jpg
+29,River,2019,3.958056703862053, I hate this,./data/28.jpg
+30,Countryside,2020,4.685003670286526,That was good,./data/29.jpg
+31,Mountain,2020,3.144530972759802,Lovely place,./data/30.jpg
+32,Mountain,2018,3.7124391951124074,Not suitable for this,./data/31.jpg
+33,Mountain,2020,1.2180373115451617,That was good,./data/32.jpg
+34,Sea,2017,4.896528997814502,Beautiful picture,./data/33.jpg
+35,Countryside,2018,2.7319265977266904, I hate this,./data/34.jpg
+36,Sea,2016,1.41709002783594, I hate this,./data/35.jpg
+37,Sea,2014,4.445059111590449,Lovely place,./data/36.jpg
+38,Mountain,2016,3.464806584796438,Not suitable for this,./data/37.jpg
+39,Sea,2016,2.675876990725345,Lovely place,./data/38.jpg
+40,River,2019,1.7030284947064849,Beautiful picture,./data/39.jpg
+41,Countryside,2015,2.4701544348544875,That was good,./data/40.jpg
+42,Landscape,2017,0.1387414832637945,average,./data/41.jpg
+43,Landscape,2010,0.6172255933534571, I hate this,./data/42.jpg
+44,Landscape,2020,0.0675150436867988,Ugly one,./data/43.jpg
+45,Landscape,2005,1.529236803596692,Ugly one,./data/44.jpg
+46,Sea,2013,2.437349189277032,average,./data/45.jpg
+47,Sea,2014,3.2696790492261387,Not suitable for this,./data/46.jpg
+48,Landscape,2017,3.073301185893647,average,./data/47.jpg
+49,Landscape,2017,4.224386349820873,Ugly one,./data/48.jpg
+50,Landscape,2012,3.8901479105505983,Lovely place,./data/49.jpg
+51,Mountain,2008,2.667989917838583,Ugly one,./data/50.jpg
+52,Mountain,2018,1.5121215023713397,Beautiful picture,./data/51.jpg
+53,Landscape,2018,0.7591581144563592,Ugly one,./data/52.jpg
+54,Sky,2020,1.0979119288721844,Ugly one,./data/53.jpg
+55,Landscape,2016,2.474175980786027,Beautiful picture,./data/54.jpg
+56,Countryside,2014,2.1348227244875657,average,./data/55.jpg
+57,Countryside,2016,1.9547465817240988,Beautiful picture,./data/56.jpg
+58,Sea,2020,3.370558713178697,Over react,./data/57.jpg
+59,Sea,2017,0.0456388889775993, I hate this,./data/58.jpg
+60,Sea,2014,2.8144099074047624, I hate this,./data/59.jpg
+61,Sea,2017,4.370362073471801, I hate this,./data/60.jpg
+62,Countryside,2014,2.299937237878126,Not suitable for this,./data/61.jpg
+63,Countryside,2015,4.870623242311275,Over react,./data/62.jpg
+64,Sea,2020,4.975011388213456,average,./data/63.jpg
+65,Countryside,2019,1.5686063853934815,That was good,./data/64.jpg
+66,Countryside,2014,4.243697174811392,Beautiful picture,./data/65.jpg
+67,Sea,2016,3.3584579153180263, I hate this,./data/66.jpg
+68,Mountain,2017,1.934338352844462,Over react,./data/67.jpg
+69,Sea,2010,0.6271313649444199,Ugly one,./data/68.jpg
+70,Mountain,2018,4.876628908968529,Over react,./data/69.jpg
+71,Sea,2016,4.985268800918016,Lovely place,./data/70.jpg
+72,Mountain,2006,1.4688294833859117,average,./data/71.jpg
+73,Sky,2009,4.358288371673561, I hate this,./data/72.jpg
+74,Sea,2020,1.990542321624165,Beautiful picture,./data/73.jpg
+75,Mountain,2016,4.906765541421563,Ugly one,./data/74.jpg
+76,Countryside,2019,3.0372333452491693,Beautiful picture,./data/75.jpg
+77,Mountain,2018,3.637941852069904,Beautiful picture,./data/76.jpg
+78,Sea,2008,1.3949796501286542,Over react,./data/77.jpg
+79,Mountain,2014,3.065711049612661,Not suitable for this,./data/78.jpg
+80,Mountain,2013,1.6546807513314723,Ugly one,./data/79.jpg
+81,Mountain,2013,4.049201696637733,Lovely place,./data/80.jpg
+82,Sea,2015,3.39185376475142, I hate this,./data/81.jpg
+83,Mountain,2018,3.742173769917681,Ugly one,./data/82.jpg
+84,Sea,2016,1.4612910197598272,Beautiful picture,./data/83.jpg
+85,Mountain,2013,3.8928762208307264,Ugly one,./data/84.jpg
+86,Sea,2019,3.7442399564710183,average,./data/85.jpg
+87,Mountain,2018,2.034913897101881,Over react,./data/86.jpg
+88,Mountain,2017,0.4839784609421038,Lovely place,./data/87.jpg
+89,Countryside,2016,2.5874615598432102,Over react,./data/88.jpg
+90,Mountain,2017,4.895826055900237,That was good,./data/89.jpg
+91,Countryside,2016,4.158558717662829,Over react,./data/90.jpg
+92,Mountain,2012,0.2512703399203903, I hate this,./data/91.jpg
+93,Countryside,2018,1.2329963824209167,Not suitable for this,./data/92.jpg
+94,Mountain,2017,1.3947518000367023,That was good,./data/93.jpg
+95,Mountain,2000,1.9962054478047984,Lovely place,./data/94.jpg
+96,Sea,2016,4.675601272348279,Beautiful picture,./data/95.jpg
+97,Sea,2014,3.798754048865229,Over react,./data/96.jpg
+98,River,2003,3.2650386206778386,Over react,./data/97.jpg
+99,Sea,2015,3.298847217656184,Beautiful picture,./data/98.jpg
+100,Countryside,2016,3.4001031833951667,Not suitable for this,./data/99.jpg
+101,Countryside,2009,0.7778397195112802,Lovely place,./data/100.jpg
+102,Sea,2018,2.4396410181295614, I hate this,./data/101.jpg
+103,Mountain,2015,2.172555059970996,Lovely place,./data/102.jpg
+104,Countryside,2016,0.0819362175236482,That was good,./data/103.jpg
+105,Sea,2011,1.3188900768583904,Beautiful picture,./data/104.jpg
+106,Countryside,1989,0.1818802819887582,Beautiful picture,./data/105.jpg
+107,Mountain,2020,3.4305112156254856,That was good,./data/106.jpg
+108,Ice,2020,4.105574460038902,That was good,./data/107.jpg
+109,Countryside,2019,0.5869075296327414,Beautiful picture,./data/108.jpg
+110,Landscape,2019,1.70530942220962, I hate this,./data/109.jpg
+111,Sea,2017,1.986130603280002,average,./data/110.jpg
+112,Sea,2018,4.217331802320658,That was good,./data/111.jpg
+113,River,2019,0.7674335537178162,Over react,./data/112.jpg
+114,Mountain,2017,0.4227301018644275,Ugly one,./data/113.jpg
+115,Countryside,2019,0.0355653797002714,Beautiful picture,./data/114.jpg
+116,Countryside,2015,4.523098567724302,Beautiful picture,./data/115.jpg
+117,Countryside,2019,2.216278076922362,Beautiful picture,./data/116.jpg
+118,River,2017,4.764166144825438,Not suitable for this,./data/117.jpg
+119,Mountain,2014,4.01731688281428, I hate this,./data/118.jpg
+120,River,2018,4.4150226517404585,Beautiful picture,./data/119.jpg
+121,Sea,2014,1.3633245021420504, I hate this,./data/120.jpg
+122,Sea,2004,3.64830876527295, I hate this,./data/121.jpg
+123,Sea,2011,4.96413096040247,Beautiful picture,./data/122.jpg
+124,Sea,2012,4.3251130719956965, I hate this,./data/123.jpg
+125,Sea,2019,3.446733334866897,Lovely place,./data/124.jpg
+126,City,2018,1.9044391144191204,Beautiful picture,./data/125.jpg
+127,Countryside,2017,1.798014986756478,Ugly one,./data/126.jpg
+128,Sea,2019,0.1894223650653242,Ugly one,./data/127.jpg
+129,Countryside,2015,0.9517380156222338, I hate this,./data/128.jpg
+130,River,2014,4.026188061793677,average,./data/129.jpg
+131,Countryside,2019,4.967749185870441, I hate this,./data/130.jpg
+132,Mountain,2017,0.0955037351783577,Ugly one,./data/131.jpg
+133,Mountain,2019,2.8776060919235653,Lovely place,./data/132.jpg
+134,Mountain,2016,4.984917050331848,Lovely place,./data/133.jpg
+135,Sea,2018,3.3978780993169453,Not suitable for this,./data/134.jpg
+136,Countryside,2018,2.617251271456963,Beautiful picture,./data/135.jpg
+137,Sea,2011,4.267305489145125,Beautiful picture,./data/136.jpg
+138,Sea,2016,4.889722980722555,Beautiful picture,./data/137.jpg
+139,Mountain,2018,2.7134132105684627,Over react,./data/138.jpg
+140,Sea,2017,2.528386008519988,Lovely place,./data/139.jpg
+141,River,2016,2.4102984693359826,average,./data/140.jpg
+142,Countryside,2020,2.67515846012497,Beautiful picture,./data/141.jpg
+143,Landscape,2016,1.2753543606474549,That was good,./data/142.jpg
+144,Landscape,2019,2.434090996825107,Beautiful picture,./data/143.jpg
+145,Landscape,2016,4.651923231509019,Lovely place,./data/144.jpg
+146,Landscape,2011,4.048161163319089,That was good,./data/145.jpg
+147,Sea,2019,4.8869771098967005, I hate this,./data/146.jpg
+148,Sea,2020,4.598599940335745,Over react,./data/147.jpg
+149,Landscape,2017,2.478902043874148,Beautiful picture,./data/148.jpg
+150,Landscape,2011,0.8995899998875756,Over react,./data/149.jpg
+151,Landscape,2016,4.100782168038417,Ugly one,./data/150.jpg
+152,Mountain,2016,4.127861720292839,Beautiful picture,./data/151.jpg
+153,Mountain,2017,1.7203666295669209,average,./data/152.jpg
+154,Landscape,1977,2.1343635022719254,Over react,./data/153.jpg
+155,Sky,2020,1.966493387165156, I hate this,./data/154.jpg
+156,Landscape,2018,1.5758406125518298,That was good,./data/155.jpg
+157,Countryside,2016,0.8163705856951708,Over react,./data/156.jpg
+158,Countryside,2020,4.76722761086852,Beautiful picture,./data/157.jpg
+159,Sea,2018,2.369374291427049,That was good,./data/158.jpg
+160,Sea,2017,1.7190290608018,Lovely place,./data/159.jpg
+161,Sea,2019,4.346760087174976,That was good,./data/160.jpg
+162,Sea,2018,0.0151857697867324,That was good,./data/161.jpg
+163,Countryside,2016,4.589516421016235,Ugly one,./data/162.jpg
+164,Countryside,2004,3.723237643605578,average,./data/163.jpg
+165,Sea,2019,0.963488691414095,Beautiful picture,./data/164.jpg
+166,Countryside,1971,4.053738609822347,average,./data/165.jpg
+167,Countryside,1993,4.527135042829259,Beautiful picture,./data/166.jpg
+168,Sea,2014,2.2765380777572,average,./data/167.jpg
+169,Mountain,2020,3.622403801864447,That was good,./data/168.jpg
+170,Sea,2015,4.275595867818206,Over react,./data/169.jpg
+171,Mountain,2016,4.071004995798989,Lovely place,./data/170.jpg
+172,Sea,2019,1.4338184719712903,Over react,./data/171.jpg
+173,Mountain,2016,2.8358343506881307,That was good,./data/172.jpg
+174,Sky,2018,0.885537844170528,That was good,./data/173.jpg
+175,Sea,2018,3.825985611207307, I hate this,./data/174.jpg
+176,Mountain,2017,1.7091241173595997,That was good,./data/175.jpg
+177,Countryside,2012,0.4952160600048683,Lovely place,./data/176.jpg
+178,Mountain,2020,4.243524742995724,Beautiful picture,./data/177.jpg
+179,Sea,2020,0.1155984057223641,Over react,./data/178.jpg
+180,Mountain,2020,1.3218812386959415,Over react,./data/179.jpg
+181,Mountain,2013,2.109937521810973,average,./data/180.jpg
+182,Mountain,2015,2.483704832979901, I hate this,./data/181.jpg
+183,Sea,2017,1.6757336990428802,Over react,./data/182.jpg
+184,Mountain,2013,4.018624912053422,Ugly one,./data/183.jpg
+185,Sea,2019,0.8786979923901433,Over react,./data/184.jpg
+186,Mountain,2015,3.9802599866149984,Over react,./data/185.jpg
+187,Sea,2011,0.4306598480692275,Not suitable for this,./data/186.jpg
+188,Mountain,2019,2.9900042856488778, I hate this,./data/187.jpg
+189,Mountain,2017,4.765371693685056,Not suitable for this,./data/188.jpg
+190,Countryside,2019,3.12765703406228,average,./data/189.jpg
+191,Mountain,2016,1.328842567073833,Ugly one,./data/190.jpg
+192,Countryside,2017,1.5305232205108514,Beautiful picture,./data/191.jpg
+193,Mountain,2019,0.7459115707434222, I hate this,./data/192.jpg
+194,Countryside,2018,1.1286611579437411,Beautiful picture,./data/193.jpg
+195,Mountain,2020,4.394455080185768, I hate this,./data/194.jpg
+196,Mountain,2006,4.046517956838313,Beautiful picture,./data/195.jpg
+197,Sea,2014,3.1564996856036243,That was good,./data/196.jpg
+198,Sea,2018,3.295991045877797,Lovely place,./data/197.jpg
+199,River,2019,1.6096400904704766,Lovely place,./data/198.jpg
+200,Sea,2020,4.522690623282394,average,./data/199.jpg
+201,Countryside,2020,4.79166447249042,Beautiful picture,./data/200.jpg
+202,Countryside,2007,2.670540924298761,Over react,./data/201.jpg
+203,Sea,2010,2.7773423526741543,Ugly one,./data/202.jpg
+204,Mountain,2016,2.7973634937682528,Not suitable for this,./data/203.jpg
+205,Countryside,2012,1.3502069869896012,That was good,./data/204.jpg
+206,Sea,2016,3.460705822890453,Not suitable for this,./data/205.jpg
+207,Countryside,2014,0.8397717810112393,Not suitable for this,./data/206.jpg
+208,Mountain,2014,2.1030603397730063,Lovely place,./data/207.jpg
+209,Ice,2017,1.492347197589167, I hate this,./data/208.jpg
+210,Countryside,2020,3.6488343009941744,Not suitable for this,./data/209.jpg
+211,Landscape,1998,0.1857402389230694,Over react,./data/210.jpg
+212,Sea,2015,4.713842172977174,That was good,./data/211.jpg
+213,Sea,2015,2.7280845991244176,Lovely place,./data/212.jpg
+214,River,2020,3.7150363412531657,That was good,./data/213.jpg
+215,Mountain,2012,3.7722666172969648,That was good,./data/214.jpg
+216,Countryside,2013,0.5133180719072317,That was good,./data/215.jpg
+217,Countryside,2016,2.9368057353664447,Lovely place,./data/216.jpg
+218,Countryside,2011,2.5751231440551834, I hate this,./data/217.jpg
+219,River,2020,1.3865123250635407,Beautiful picture,./data/218.jpg
+220,Mountain,2019,2.230876848691273,Over react,./data/219.jpg
+221,River,2011,1.559018887631742,Beautiful picture,./data/220.jpg
+222,Sea,2016,2.146575033677996, I hate this,./data/221.jpg
+223,Sea,2015,2.479878077795266,Not suitable for this,./data/222.jpg
+224,Sea,2020,2.0012050292748857,Ugly one,./data/223.jpg
+225,Sea,2011,3.4126259376411388,Not suitable for this,./data/224.jpg
+226,Sea,2019,1.292313344452667,average,./data/225.jpg
+227,City,2009,1.528520183573057, I hate this,./data/226.jpg
+228,Countryside,2020,2.7851532584025485, I hate this,./data/227.jpg
+229,Sea,2016,2.7402308114334373, I hate this,./data/228.jpg
+230,Countryside,2009,3.498590344424202,Lovely place,./data/229.jpg
+231,River,2017,2.340120682466841,Ugly one,./data/230.jpg
+232,Countryside,2015,2.734663595768831,Lovely place,./data/231.jpg
+233,Mountain,1988,2.325367956136104,Ugly one,./data/232.jpg
+234,Mountain,2017,3.046541665929732,average,./data/233.jpg
+235,Mountain,2019,0.5005604624260934,Ugly one,./data/234.jpg
+236,Sea,2018,4.361581518690544,Not suitable for this,./data/235.jpg
+237,Countryside,2015,3.877629527144183,Ugly one,./data/236.jpg
+238,Sea,2019,4.143977165243452,Ugly one,./data/237.jpg
+239,Sea,1996,4.088721229145705,Lovely place,./data/238.jpg
+240,Mountain,2019,1.2856249403478577, I hate this,./data/239.jpg
+241,Sea,2012,1.7570536716226748,Ugly one,./data/240.jpg
+242,River,2016,0.0575351805969781,That was good,./data/241.jpg
+243,Countryside,2020,1.084294071791343,Over react,./data/242.jpg
+244,Landscape,2016,1.680084462874578,Not suitable for this,./data/243.jpg
+245,Landscape,2020,4.957804611887592,Ugly one,./data/244.jpg
+246,Landscape,2018,2.69106092745043,Ugly one,./data/245.jpg
+247,Landscape,2017,1.5898247747645806,Lovely place,./data/246.jpg
+248,Sea,2015,4.612775082489273,Ugly one,./data/247.jpg
+249,Sea,2018,3.1410900542185383,Over react,./data/248.jpg
+250,Landscape,2008,4.341564146662053,average,./data/249.jpg
+251,Landscape,2002,2.753621658873786,Lovely place,./data/250.jpg
+252,Landscape,2008,4.883741620080093,That was good,./data/251.jpg
+253,Mountain,2017,1.882472202207604,That was good,./data/252.jpg
+254,Mountain,2020,2.815453876797492, I hate this,./data/253.jpg
+255,Landscape,2017,1.0206478466893,Ugly one,./data/254.jpg
+256,Sky,2018,1.5836030375093977,Lovely place,./data/255.jpg
+257,Landscape,2015,1.241167122691118,Lovely place,./data/256.jpg
+258,Countryside,2016,3.231640586795021, I hate this,./data/257.jpg
+259,Countryside,2013,3.076190034470723,That was good,./data/258.jpg
+260,Sea,2015,1.751789145894656,Not suitable for this,./data/259.jpg
+261,Sea,2018,1.6756412966824223,Ugly one,./data/260.jpg
+262,Sea,2019,3.7476903882120993, I hate this,./data/261.jpg
+263,Sea,2018,3.556958618064274,Ugly one,./data/262.jpg
+264,Countryside,2011,3.608770513129906,average,./data/263.jpg
+265,Countryside,2017,2.2302078810828925, I hate this,./data/264.jpg
+266,Sea,2009,3.430937448085964,Not suitable for this,./data/265.jpg
+267,Countryside,2013,2.4052067168700813,That was good,./data/266.jpg
+268,Countryside,1988,4.170191295863654, I hate this,./data/267.jpg
+269,Sea,2018,1.001527380508684,Beautiful picture,./data/268.jpg
+270,Mountain,2008,3.091804361211646,Ugly one,./data/269.jpg
+271,Sea,2018,1.2592112788850696,Over react,./data/270.jpg
+272,Mountain,2011,3.937652000478144,Lovely place,./data/271.jpg
+273,Sea,2010,2.4201723924700707,Ugly one,./data/272.jpg
+274,Mountain,1993,2.3299713488593725,That was good,./data/273.jpg
+275,Sky,2010,3.015239613289177,Over react,./data/274.jpg
+276,Sea,2019,3.7185273616998167,Beautiful picture,./data/275.jpg
+277,Mountain,2019,2.3586633932457826,Not suitable for this,./data/276.jpg
+278,Countryside,2015,2.22230397068291,Not suitable for this,./data/277.jpg
+279,Mountain,2015,4.092798431978043,Over react,./data/278.jpg
+280,Sea,2013,2.8668528359547403,average,./data/279.jpg
+281,Mountain,2012,1.2874735725324022,Not suitable for this,./data/280.jpg
+282,Mountain,2017,2.380309791131922,Lovely place,./data/281.jpg
+283,Mountain,2016,0.1955754863014824,Lovely place,./data/282.jpg
+284,Sea,2016,1.5059222412092588,Over react,./data/283.jpg
+285,Mountain,2017,1.2099574739765036,Lovely place,./data/284.jpg
+286,Sea,2012,0.204632553522715, I hate this,./data/285.jpg
+287,Mountain,2002,2.506895468915777,That was good,./data/286.jpg
+288,Sea,2013,2.4875115837637103,Ugly one,./data/287.jpg
+289,Mountain,2019,1.8056288407478405,Lovely place,./data/288.jpg
+290,Mountain,2020,4.120771870223306,Ugly one,./data/289.jpg
+291,Countryside,2019,0.3025734618546127,average,./data/290.jpg
+292,Mountain,2015,3.49149537170851,Lovely place,./data/291.jpg
+293,Countryside,2016,0.4583644742839177,That was good,./data/292.jpg
+294,Mountain,2009,1.3116716408590234,Not suitable for this,./data/293.jpg
+295,Countryside,2018,0.7096990788730956,Not suitable for this,./data/294.jpg
+296,Mountain,2013,0.3174002118127805,That was good,./data/295.jpg
+297,Mountain,2015,2.899086198114565,average,./data/296.jpg
+298,Sea,2007,2.051481580458903,Beautiful picture,./data/297.jpg
+299,Sea,2012,1.0871552302324043,Lovely place,./data/298.jpg
+300,River,2010,0.635452006449092,Not suitable for this,./data/299.jpg
+301,Sea,2010,0.5822999771405618,average,./data/300.jpg
+302,Countryside,2017,3.196581296009696,Lovely place,./data/301.jpg
+303,Countryside,2018,0.992903002447556,Not suitable for this,./data/302.jpg
+304,Sea,2018,1.95155341612314,Over react,./data/303.jpg
+305,Mountain,2020,1.3896443064307695,Over react,./data/304.jpg
+306,Countryside,2019,3.131453744986209,Over react,./data/305.jpg
+307,Sea,2018,2.84370141315299,Lovely place,./data/306.jpg
+308,Countryside,2018,1.4463523813548051,That was good,./data/307.jpg
+309,Mountain,1986,1.6994080687015694,That was good,./data/308.jpg
+310,Ice,2014,2.642759306203293,average,./data/309.jpg
+311,Countryside,2018,3.0687551694470603,Ugly one,./data/310.jpg
+312,Landscape,2018,3.107702000298722,Over react,./data/311.jpg
+313,Sea,2017,0.6541331130862038,That was good,./data/312.jpg
+314,Sea,2013,4.0342705954563325,That was good,./data/313.jpg
+315,River,2018,4.995172725363221,That was good,./data/314.jpg
+316,Mountain,2017,0.0606240308626515,Ugly one,./data/315.jpg
+317,Countryside,2015,1.1251049848729493,Beautiful picture,./data/316.jpg
+318,Countryside,2018,3.9161282773463233,average,./data/317.jpg
+319,Countryside,2016,1.0617117638653528,That was good,./data/318.jpg
+320,River,2018,1.869361837076028,Beautiful picture,./data/319.jpg
+321,Mountain,2020,2.623148915695266,Lovely place,./data/320.jpg
+322,River,2013,0.3298194914167146,Ugly one,./data/321.jpg
+323,Sea,2017,2.320623533188524,average,./data/322.jpg
+324,Sea,2019,2.854241781792886,Ugly one,./data/323.jpg
+325,Sea,2020,0.5834343262962771,Not suitable for this,./data/324.jpg
+326,Sea,2019,1.5568822329850984, I hate this,./data/325.jpg
+327,Sea,2012,1.2747996461414646,average,./data/326.jpg
+328,City,2018,0.463266202692203,Ugly one,./data/327.jpg
+329,Countryside,2019,1.519383355884956,Beautiful picture,./data/328.jpg
+330,Sea,2020,2.6876235620312308,Over react,./data/329.jpg
+331,Countryside,2017,4.13406175901218,Not suitable for this,./data/330.jpg
+332,River,2008,1.370228570244441,Ugly one,./data/331.jpg
+333,Countryside,2012,1.9952844791223567,average,./data/332.jpg
+334,Mountain,2014,4.786055671361059,Over react,./data/333.jpg
+335,Mountain,2018,4.080906831080541,Lovely place,./data/334.jpg
+336,Mountain,2017,2.3911196752453185,Beautiful picture,./data/335.jpg
+337,Sea,2010,4.5471800459901335, I hate this,./data/336.jpg
+338,Countryside,2018,0.2818965720841049,average,./data/337.jpg
+339,Sea,2017,3.067892239336846,Lovely place,./data/338.jpg
+340,Sea,2019,0.8703656029143053,Lovely place,./data/339.jpg
+341,Mountain,2015,3.0933898226270333,Ugly one,./data/340.jpg
+342,Sea,2020,1.0700441886134238,Not suitable for this,./data/341.jpg
+343,River,2018,3.423665733720895,Ugly one,./data/342.jpg
+344,Countryside,1990,4.489085230312149,Over react,./data/343.jpg
+345,Landscape,2018,2.4780418032139857,That was good,./data/344.jpg
+346,Landscape,2009,0.7658661894832963,Over react,./data/345.jpg
+347,Landscape,2006,3.2986654585682142,average,./data/346.jpg
+348,Landscape,2012,4.65759825987602, I hate this,./data/347.jpg
+349,Sea,2019,2.113778758161207,average,./data/348.jpg
+350,Sea,2018,0.6371678233829153, I hate this,./data/349.jpg
+351,Landscape,2014,4.246308171925581,Ugly one,./data/350.jpg
+352,Landscape,2020,4.8837148584486085,Beautiful picture,./data/351.jpg
+353,Landscape,2020,4.629592639230252,Not suitable for this,./data/352.jpg
+354,Mountain,2015,1.9681811060286951,Not suitable for this,./data/353.jpg
+355,Mountain,2004,4.145587936138456,Lovely place,./data/354.jpg
+356,Landscape,2018,4.28238091358662,Not suitable for this,./data/355.jpg
+357,Sky,2012,3.8847984903946737,Lovely place,./data/356.jpg
+358,Landscape,2020,0.4121932452240562, I hate this,./data/357.jpg
+359,Countryside,2009,1.253214592699852,Not suitable for this,./data/358.jpg
+360,Countryside,2015,1.9119980016922693,Ugly one,./data/359.jpg
+361,Sea,2016,4.1040120949636,Lovely place,./data/360.jpg
+362,Sea,2017,3.830269301478223, I hate this,./data/361.jpg
+363,Sea,2020,2.826692184455917,Not suitable for this,./data/362.jpg
+364,Sea,2014,4.130075141814322,Lovely place,./data/363.jpg
+365,Countryside,2019,4.232895718813511,Beautiful picture,./data/364.jpg
+366,Countryside,2015,4.436287757456211,Beautiful picture,./data/365.jpg
+367,Sea,2019,0.2435595943394386,That was good,./data/366.jpg
+368,Countryside,2017,3.608909354520855, I hate this,./data/367.jpg
+369,Countryside,2020,4.117804285404741,Over react,./data/368.jpg
+370,Sea,2017,0.8906515636731299,Not suitable for this,./data/369.jpg
+371,Mountain,2017,4.695368295077966,Over react,./data/370.jpg
+372,Sea,2017,4.280138515596657,Not suitable for this,./data/371.jpg
+373,Mountain,2017,4.745542777608545,Beautiful picture,./data/372.jpg
+374,Sea,2019,4.734558938697932,That was good,./data/373.jpg
+375,Mountain,2016,2.287131757374896,Beautiful picture,./data/374.jpg
+376,Sky,2018,0.9116923350395711,Ugly one,./data/375.jpg
+377,Sea,2018,4.276085476776228,That was good,./data/376.jpg
+378,Mountain,2019,0.1722982853898141,That was good,./data/377.jpg
+379,Countryside,2020,0.9503952824406336,Beautiful picture,./data/378.jpg
+380,Mountain,2018,0.940344491861458,Lovely place,./data/379.jpg
+381,Sea,2020,2.9479724969822363,Beautiful picture,./data/380.jpg
+382,Mountain,1979,2.7609456023907786,Not suitable for this,./data/381.jpg
+383,Mountain,1989,1.1840414604025944,Lovely place,./data/382.jpg
+384,Mountain,2019,1.9624899284047503,Ugly one,./data/383.jpg
+385,Sea,2019,1.9287585341240288,Over react,./data/384.jpg
+386,Mountain,2015,2.972043326839151,Over react,./data/385.jpg
+387,Sea,2016,3.980698386619177,That was good,./data/386.jpg
+388,Mountain,2018,3.6434423975791694,Lovely place,./data/387.jpg
+389,Sea,2018,1.948664513302696,Not suitable for this,./data/388.jpg
+390,Mountain,2017,2.2446610210091302,Ugly one,./data/389.jpg
+391,Mountain,2017,1.115930289639802,Ugly one,./data/390.jpg
+392,Countryside,1980,3.243075760579872,That was good,./data/391.jpg
+393,Mountain,1974,3.579281801473866,Not suitable for this,./data/392.jpg
+394,Countryside,2020,2.509755528440282, I hate this,./data/393.jpg
+395,Mountain,2019,1.041358779842133,Not suitable for this,./data/394.jpg
+396,Countryside,2017,4.380773468213805,That was good,./data/395.jpg
+397,Mountain,2020,4.193776163876628,Beautiful picture,./data/396.jpg
+398,Mountain,2019,4.737149795741705, I hate this,./data/397.jpg
+399,Sea,2020,2.954845207525452, I hate this,./data/398.jpg
+400,Sea,2020,4.450117859077087,Beautiful picture,./data/399.jpg
+401,River,2018,1.678879619520911,average,./data/400.jpg
+402,Sea,2016,0.3143597960933747,Not suitable for this,./data/401.jpg
+403,Countryside,2017,0.0686964240715831, I hate this,./data/402.jpg
+404,Countryside,2018,2.361095511709733,average,./data/403.jpg
+405,Sea,2018,1.4375936182856823,average,./data/404.jpg
+406,Mountain,2019,2.396853301514533,Ugly one,./data/405.jpg
+407,Countryside,2020,2.921998998926453,average,./data/406.jpg
+408,Sea,2020,2.923364038700802,Not suitable for this,./data/407.jpg
+409,Countryside,1989,4.91135215370675,That was good,./data/408.jpg
+410,Mountain,2020,1.0894568221109158,Ugly one,./data/409.jpg
+411,Ice,2019,0.9247463835417592,average,./data/410.jpg
+412,Countryside,2017,0.3052631676180539, I hate this,./data/411.jpg
+413,Landscape,2017,0.095186900392627,Beautiful picture,./data/412.jpg
+414,Sea,2016,3.124259493805704,Lovely place,./data/413.jpg
+415,Sea,2019,3.379531291940723, I hate this,./data/414.jpg
+416,River,2018,3.530364642308724,Ugly one,./data/415.jpg
+417,Mountain,2017,1.63564284329007,Beautiful picture,./data/416.jpg
+418,Countryside,2006,2.504710920286117,Over react,./data/417.jpg
+419,Countryside,2020,1.0230101209398668,That was good,./data/418.jpg
+420,Countryside,2018,3.320956471979344, I hate this,./data/419.jpg
+421,River,2020,1.740210157810163,Over react,./data/420.jpg
+422,Mountain,2017,2.0407723353796365,Over react,./data/421.jpg
+423,River,2020,1.559151113470053,Not suitable for this,./data/422.jpg
+424,Sea,2009,3.655959459215074,Beautiful picture,./data/423.jpg
+425,Sea,2019,3.815664893345307,Over react,./data/424.jpg
+426,Sea,2017,4.179781339617156,Ugly one,./data/425.jpg
+427,Sea,2020,4.422206955086409,Not suitable for this,./data/426.jpg
+428,Sea,2020,3.24589435818682,Over react,./data/427.jpg
+429,City,2019,4.9479347085592655,average,./data/428.jpg
+430,Countryside,2016,2.743446213327449,That was good,./data/429.jpg
+431,Sea,2019,1.411229974829975,Over react,./data/430.jpg
+432,Countryside,2001,2.637194619281754,average,./data/431.jpg
+433,River,2013,4.939429427620135,Not suitable for this,./data/432.jpg
+434,Countryside,2014,4.663284654457716,Over react,./data/433.jpg
+435,Mountain,2014,4.693079876976837,Beautiful picture,./data/434.jpg
+436,Mountain,2017,2.8301376461251797, I hate this,./data/435.jpg
+437,Mountain,2018,0.0512097529414767,Beautiful picture,./data/436.jpg
+438,Sea,2020,1.5401410992328324, I hate this,./data/437.jpg
+439,Countryside,2020,3.292153359713862,Ugly one,./data/438.jpg
+440,Sea,2019,1.8587384380028205,Not suitable for this,./data/439.jpg
+441,Sea,2019,2.707045761653059,average,./data/440.jpg
+442,Mountain,2016,1.3318380730209485, I hate this,./data/441.jpg
+443,Sea,2016,1.4625772357403697,That was good,./data/442.jpg
+444,River,2002,0.2638896719282596,Ugly one,./data/443.jpg
+445,Countryside,2017,4.77222219473483, I hate this,./data/444.jpg
+446,Landscape,2015,3.738471406690824,Not suitable for this,./data/445.jpg
+447,Landscape,1977,3.4240065940313134,Over react,./data/446.jpg
+448,Landscape,2011,2.0441585953085437,Ugly one,./data/447.jpg
+449,Landscape,2018,0.8938892271060733,Over react,./data/448.jpg
+450,Sea,2018,3.352368796824387,Not suitable for this,./data/449.jpg
+451,Sea,2017,4.794976360017395,Beautiful picture,./data/450.jpg
+452,Landscape,2014,2.6057810545495474,Ugly one,./data/451.jpg
+453,Landscape,2013,1.9398095153199968,That was good,./data/452.jpg
+454,Landscape,2016,2.271431314699641,Over react,./data/453.jpg
+455,Mountain,2017,3.640024711833068,Beautiful picture,./data/454.jpg
+456,Mountain,1999,4.803290029130433,Not suitable for this,./data/455.jpg
+457,Landscape,2017,4.563248083866684,That was good,./data/456.jpg
+458,Sky,2017,3.3478903347602285,Lovely place,./data/457.jpg
+459,Landscape,2016,0.1815749849940823,Over react,./data/458.jpg
+460,Countryside,2017,2.170758966262137, I hate this,./data/459.jpg
+461,Countryside,2018,3.812947108434337,Beautiful picture,./data/460.jpg
+462,Sea,2018,3.6451429520126686, I hate this,./data/461.jpg
+463,Sea,2019,2.828918790586144,Over react,./data/462.jpg
+464,Sea,2019,3.342842052303121,Not suitable for this,./data/463.jpg
+465,Sea,2019,0.6585158494873422,Beautiful picture,./data/464.jpg
+466,Countryside,2014,3.828122627781971,Lovely place,./data/465.jpg
+467,Countryside,1998,0.2314241539895278, I hate this,./data/466.jpg
+468,Sea,2016,3.273757531455073,Beautiful picture,./data/467.jpg
+469,Countryside,2019,2.941552609677992,Lovely place,./data/468.jpg
+470,Countryside,2018,1.4641614601010278,Lovely place,./data/469.jpg
+471,Sea,2020,2.965451349070084,Not suitable for this,./data/470.jpg
+472,Mountain,2015,4.212899034472869,average,./data/471.jpg
+473,Sea,2020,3.203513615976432,That was good,./data/472.jpg
+474,Mountain,2000,1.7095623597909493,Ugly one,./data/473.jpg
+475,Sea,2019,3.9523249642126808,That was good,./data/474.jpg
+476,Mountain,2018,1.1926590116592883,Beautiful picture,./data/475.jpg
+477,Sky,2019,4.038336555666529,Lovely place,./data/476.jpg
+478,Sea,2019,1.212642229289005,Lovely place,./data/477.jpg
+479,Mountain,2017,3.8878813570645714,Not suitable for this,./data/478.jpg
+480,Countryside,2017,4.777296056043107,Ugly one,./data/479.jpg
+481,Mountain,1966,1.5900710773044455,average,./data/480.jpg
+482,Sea,2015,1.576481078692138,Not suitable for this,./data/481.jpg
+483,Mountain,2019,2.004750043266582,average,./data/482.jpg
+484,Mountain,2017,3.1495998969077603,Not suitable for this,./data/483.jpg
+485,Mountain,2013,0.898892756051784,Beautiful picture,./data/484.jpg
+486,Sea,1986,0.9488920545171848,Lovely place,./data/485.jpg
+487,Mountain,1991,4.240058346526615,Beautiful picture,./data/486.jpg
+488,Sea,1999,4.777423988542864,That was good,./data/487.jpg
+489,Mountain,2000,3.054887778261008,Lovely place,./data/488.jpg
+490,Sea,2019,0.3344356709856411,Over react,./data/489.jpg
+491,Mountain,1982,0.9375934328631608,Over react,./data/490.jpg
+492,Mountain,2018,4.333437207148295,Not suitable for this,./data/491.jpg
+493,Countryside,2012,0.3553189202353352,Beautiful picture,./data/492.jpg
+494,Mountain,2017,1.2835026033347174,That was good,./data/493.jpg
+495,Countryside,2012,4.880101502153076,Ugly one,./data/494.jpg
+496,Mountain,2018,0.4353781948127405,Beautiful picture,./data/495.jpg
+497,Countryside,2017,4.551149092829623,average,./data/496.jpg
+498,Mountain,2020,4.333124645191741,Not suitable for this,./data/497.jpg
+499,Mountain,2014,1.883946400473036,Lovely place,./data/498.jpg
+500,Sea,2018,2.3051841733340392,average,./data/499.jpg
+501,Sea,2014,3.149477252927947,Ugly one,./data/500.jpg
+502,River,2017,2.896585529267608,That was good,./data/501.jpg
+503,Sea,2017,1.9899840533927196,Ugly one,./data/502.jpg
+504,Countryside,2010,4.828644909103479,Not suitable for this,./data/503.jpg
+505,Countryside,2018,3.490041422925682,average,./data/504.jpg
+506,Sea,2018,4.944854539496605,Over react,./data/505.jpg
+507,Mountain,2008,4.656063506501089, I hate this,./data/506.jpg
+508,Countryside,1994,4.8547273458289695,Beautiful picture,./data/507.jpg
+509,Sea,2018,1.2471093817673495,Beautiful picture,./data/508.jpg
+510,Countryside,2020,2.5561527932189456,Over react,./data/509.jpg
+511,Mountain,2020,2.0988259537784737, I hate this,./data/510.jpg
+512,Ice,2020,2.286488868522853,Not suitable for this,./data/511.jpg
+513,Countryside,2020,0.4198271424138305,Not suitable for this,./data/512.jpg
+514,Landscape,2015,2.916791105925204,Ugly one,./data/513.jpg
+515,Sea,2017,2.766710069346857,Not suitable for this,./data/514.jpg
+516,Sea,2014,4.904395078911244,Beautiful picture,./data/515.jpg
+517,River,2010,2.599195971719803,Beautiful picture,./data/516.jpg
+518,Mountain,2001,3.888390910535519,Not suitable for this,./data/517.jpg
+519,Countryside,2019,3.911143556635894,average,./data/518.jpg
+520,Countryside,2018,2.2281203267586718,average,./data/519.jpg
+521,Countryside,2020,3.736838838726228,Over react,./data/520.jpg
+522,River,2009,4.4621885408802, I hate this,./data/521.jpg
+523,Mountain,2003,4.156166259070507, I hate this,./data/522.jpg
+524,River,2018,3.628266533919567,That was good,./data/523.jpg
+525,Sea,2015,4.378444162677418,That was good,./data/524.jpg
+526,Sea,2020,4.610082806090936,Lovely place,./data/525.jpg
+527,Sea,2018,0.4958061566669802,That was good,./data/526.jpg
+528,Sea,2019,1.8468176665112543,Not suitable for this,./data/527.jpg
+529,Sea,2020,3.4333653312166077,Lovely place,./data/528.jpg
+530,City,2018,0.0374048827087775,average,./data/529.jpg
+531,Countryside,2018,0.7950449820815869,average,./data/530.jpg
+532,Sea,2020,0.654193210136213,Ugly one,./data/531.jpg
+533,Countryside,2014,2.765963792983712,average,./data/532.jpg
+534,River,2018,1.1768526987539425,Beautiful picture,./data/533.jpg
+535,Countryside,2018,0.588437131090197,Lovely place,./data/534.jpg
+536,Mountain,2015,1.8207219168985176,Not suitable for this,./data/535.jpg
+537,Mountain,2013,3.188966650986888,Ugly one,./data/536.jpg
+538,Mountain,2013,3.640619485573459,average,./data/537.jpg
+539,Sea,2016,1.6983805453081908,Over react,./data/538.jpg
+540,Countryside,2019,0.4052473198329465,Lovely place,./data/539.jpg
+541,Sea,2011,0.9548588565517784,average,./data/540.jpg
+542,Sea,2018,4.452537110753852,average,./data/541.jpg
+543,Mountain,2016,4.031074588182592,average,./data/542.jpg
+544,Sea,2019,3.4062085661130483,Lovely place,./data/543.jpg
+545,River,2016,1.4517473070812414,Lovely place,./data/544.jpg
+546,Countryside,2019,3.794788564490272,Not suitable for this,./data/545.jpg
+547,Landscape,2018,0.6873399756747361,Lovely place,./data/546.jpg
+548,Landscape,2017,0.5969073050986395,Ugly one,./data/547.jpg
+549,Landscape,2018,0.7841242870288634,Lovely place,./data/548.jpg

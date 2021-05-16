@@ -1,0 +1,112 @@
+﻿@page
+@model ExpoGAN.Web.Pages.EmojisModel
+@{
+    ViewData["Title"] = "Emojis Generator with DCGAN";
+}
+
+@section CSS
+{
+    <link rel="stylesheet" href="@Url.Content("/css/image-picker.css")" />
+}
+
+@section Scripts
+{
+    <script type="text/javascript" src="@Url.Content("/js/image-picker.min.js")"></script>
+
+    <script type="text/javascript">
+        $("select.image-picker").imagepicker({ limit: 2 });
+            //jQuery("select.image-picker").imagepicker({
+            //    hide_select: false,
+            //});
+    </script>
+}
+
+<div class="text-center">
+    <h1 class="display-3">@ViewData["Title"]</h1>
+</div>
+
+<div class="container">
+    @if (Model.GenerateEmojisError)
+    {
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <p>
+                    @Model.Message
+                </p>
+            </div>
+        </div>
+    }
+
+    <ul class="nav nav-tabs" id="tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="demo-tab" data-toggle="tab" href="#demo" role="tab" aria-controls="demo" aria-selected="true">Demo</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="model-tab" data-toggle="tab" href="#model" role="tab" aria-controls="model" aria-selected="false">AI Model</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="tabsContent">
+        <div class="tab-pane fade show active" id="demo" role="tabpanel" aria-labelledby="demo-tab">
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <h2 class="display-5">Instructions:</h2>
+                    <ol>
+                        <li>Click on 'Generate' to view 45 newly generated emojis.</li>
+                        <li>Pick 2 emojis from the list by clicking on them.</li>
+                        <li>Click the 'Pick Selected Emojis' button.</li>
+                        <li>Use the slider to morph from one emoji to the other.</li>
+                    </ol>
+
+                    <form asp-page-handler="generate" method="post" class="mb-3">
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Generate Emojis</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            @if (Model.EmojisExist)
+            {
+                <hr />
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <form asp-page-handler="pick" method="post" class="mb-3">
+                            <select asp-for="SelectedEmojis" class="image-picker show-html" data-limit="2" multiple="multiple">
+                                @for (int i = 0; i < 53; i++)
+                                {
+                                    <option data-img-src="@Url.Content($"/data/emojis/{Model.EmojisServiceGuid}/{i}.png")" value="@(i)">Emoji #@(i)</option>
+                                }
+                            </select>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Pick Selected Emojis</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            }
+            @if (!string.IsNullOrEmpty(Model.FirstEmojiId))
+            {
+                <hr />
+                <div class="row mb-4">
+                    <div class="col-md-1">
+                        <div class="text-center">
+                            <img src="@Url.Content($"/data/emojis/{Model.EmojisServiceGuid}/{Model.FirstEmojiId}.png")" />
+                        </div>
+                    </div>
+                    <div class="col-md-10 text-center">
+                        <div class="text-center">
+                            <img src="@Url.Content($"/data/emojis/{Model.EmojisServiceGuid}/morphs/morphs.png")" />
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="text-center">
+                            <img src="@Url.Content($"/data/emojis/{Model.EmojisServiceGuid}/{Model.SecondEmojiId}.png")" />
+                        </div>
+                    </div>
+                </div>
+            }
+            <div class="tab-pane fade" id="model" role="tabpanel" aria-labelledby="model-tab">
+            </div>
+        </div>
+    </div>
+</div>

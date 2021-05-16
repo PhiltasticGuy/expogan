@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpoGAN.Web", "src\web\ExpoGAN.Web\ExpoGAN.Web.csproj", "{C2A054B5-4BF3-4C2C-B4B4-272C3298DD33}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{31BAEE76-0AE2-4913-8FF7-EE853FFF8040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FDA3DF26-75F0-4618-9657-95B687839874}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{3CC9F546-894B-4E1B-955A-8567987A0245}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{6C4AA7F0-2582-46C7-935C-2E6546F2CDE8}"
+	ProjectSection(SolutionItems) = preProject
+		src\api\Dockerfile = src\api\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3BBBF50C-DC2D-4F7D-A8B3-8615D5394DE0}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		.env-sample = .env-sample
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{8320303D-1A5A-4844-BB50-D43B584CC0DA}"
+	ProjectSection(SolutionItems) = preProject
+		src\api\app\main.py = src\api\app\main.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{FB6128F6-DC5A-4D00-AC1D-560FC6556886}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PROCESSED", "PROCESSED", "{22ADE182-1F0A-43B8-B3FE-2CB007BA9A20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UPLOADED", "UPLOADED", "{07CF1FE9-650F-4894-B1FC-0A2FE1B50ADC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2A054B5-4BF3-4C2C-B4B4-272C3298DD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A054B5-4BF3-4C2C-B4B4-272C3298DD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A054B5-4BF3-4C2C-B4B4-272C3298DD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A054B5-4BF3-4C2C-B4B4-272C3298DD33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31BAEE76-0AE2-4913-8FF7-EE853FFF8040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BAEE76-0AE2-4913-8FF7-EE853FFF8040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BAEE76-0AE2-4913-8FF7-EE853FFF8040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BAEE76-0AE2-4913-8FF7-EE853FFF8040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2A054B5-4BF3-4C2C-B4B4-272C3298DD33} = {3CC9F546-894B-4E1B-955A-8567987A0245}
+		{3CC9F546-894B-4E1B-955A-8567987A0245} = {FDA3DF26-75F0-4618-9657-95B687839874}
+		{6C4AA7F0-2582-46C7-935C-2E6546F2CDE8} = {FDA3DF26-75F0-4618-9657-95B687839874}
+		{8320303D-1A5A-4844-BB50-D43B584CC0DA} = {6C4AA7F0-2582-46C7-935C-2E6546F2CDE8}
+		{22ADE182-1F0A-43B8-B3FE-2CB007BA9A20} = {FB6128F6-DC5A-4D00-AC1D-560FC6556886}
+		{07CF1FE9-650F-4894-B1FC-0A2FE1B50ADC} = {FB6128F6-DC5A-4D00-AC1D-560FC6556886}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FF7F4A4-9013-4C2C-85CC-8939A483DCA7}
+	EndGlobalSection
+EndGlobal

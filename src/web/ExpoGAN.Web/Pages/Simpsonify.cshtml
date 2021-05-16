@@ -1,0 +1,73 @@
+﻿@page
+@model ExpoGAN.Web.Pages.SimpsonifyModel
+@{
+    ViewData["Title"] = "Simpsonify with CycleGAN";
+}
+
+<div class="text-center">
+    <h1 class="display-3">@ViewData["Title"]</h1>
+</div>
+
+<div class="container">
+    @if (Model.GetMessageError)
+    {
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <p>
+                    @Model.Message
+                </p>
+            </div>
+        </div>
+    }
+
+    <ul class="nav nav-tabs" id="recolorTabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="fromUrl-tab" data-toggle="tab" href="#fromUrl" role="tab" aria-controls="fromUrl" aria-selected="true">From URL</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="fromFile-tab" data-toggle="tab" href="#fromFile" role="tab" aria-controls="fromFile" aria-selected="false">From File</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="recolorTabsContent">
+        <div class="tab-pane fade show active" id="fromUrl" role="tabpanel" aria-labelledby="fromUrl-tab">
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <form method="post">
+                        <div class="form-group">
+                            <label for="ImageUrl">Image URL:</label>
+                            <input type="url" class="form-control" asp-for="ImageUrl" aria-describedby="ImageUrlHelp" placeholder="Enter Image URL">
+                            <small id="ImageUrlHelp" class="form-text text-muted text-center">Example: <a href="https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2019/01/meme.jpg">https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2019/01/meme.jpg</a></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="MaxColors">Number of colors to use:</label>
+                            <input type="number" class="form-control" asp-for="MaxColors" placeholder="3">
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="fromFile" role="tabpanel" aria-labelledby="fromFile-tab">
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <input type="file" asp-for="UploadedFile" />
+                        </div>
+                        <div class="form-group">
+                            <label for="MaxColors">Number of colors to use:</label>
+                            <input type="number" class="form-control" asp-for="MaxColors" placeholder="3">
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

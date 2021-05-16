@@ -1,0 +1,41 @@
+﻿@page
+@using Logic
+@model IndexModel
+@{
+    ViewData["Title"] = "ExpoGAN";
+}
+
+<div class="text-center">
+    <h1 class="display-3">ExpoGAN</h1>
+    <h2 class="display-5">Easily recolor any image within seconds!</h2>
+    <p>Check out some of the latest images generated or create your own masterpieces.</p>
+</div>
+
+<div class="container">
+    @if (!Model.HasArtPieceErrors)
+    {
+        @foreach (var row in Model.ArtPieces.Split(4))
+        {
+            <div class="row mb-4">
+                @foreach (var piece in row)
+                {
+                <div class="col-md-3">
+                    <a asp-area="" asp-page="/ArtPieces/Details" asp-route-id="@piece.Id">
+                        <div class="card">
+                            <img class="card-img-top" alt="Image cap [100%x180]" src="/data/PROCESSED/@piece.Filename" }>
+                            @*<div class="card-body">
+                                <h5 class="card-title">@piece.Id</h5>
+                                <p class="card-text">
+                                    With supporting text below as a natural lead-in to additional content.
+                                </p>
+                                <a href="#" class="btn btn-primary">Button</a>
+                            </div>*@
+                            <div class="card-footer text-muted">@Model.GetPieceAge(piece.DateCreated)</div>
+                        </div>
+                    </a>
+                </div>
+                }
+            </div>
+        }
+    }
+</div>
