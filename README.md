@@ -1,7 +1,12 @@
-
-
-
 # Build & Run W/O Docker
+
+## Interface
+
+![example](docs/app-dcgan-interpolation-1.png)
+
+## Architecture
+
+![architecture](docs/ExpoGanArchitecture.png)
 
 ## Dependencies without docker
 
@@ -32,6 +37,5 @@ This .env file must contains the following credentials :
 * cd in the root of this repo
 * sudo docker-compose build
 * sudo docker-compose up
-* Go to localhost:5000/ to have our test API app 
+* Go to localhost:5000/ to have our test API app
 * Go to localhost:7000/ to have our web app
-
